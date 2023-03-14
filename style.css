@@ -19,3 +19,55 @@ header {
     color: #fff;
     text-align: center;
 }
+
+/* Testimonils */
+section#testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 32px auto;
+}
+
+.testimonial-card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 90px;
+}
+
+.testimonial-card .testimonial-img {
+    width: 175px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #333;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #333;
+
+    background: url(https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonial-card .testimonial-body {
+    margin-top: 90px;
+    padding: 16px;
+}
+
+.testimonial-card .testimonial-body h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.testimonial-card .testimonial-body p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
