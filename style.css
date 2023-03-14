@@ -20,6 +20,72 @@ header {
     text-align: center;
 }
 
+
+/* Chapters */
+section#chapters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 32px auto;
+}
+
+section#chapters .card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+section#chapters .card .card-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+section#chapters .card:first-child .card-img {
+    background: url(https://static.javatpoint.com/tutorial/git/images/why-git.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#chapters .card:nth-child(2) .card-img {
+    background: url(https://www.edureka.co/blog/wp-content/uploads/2016/11/Git-Architechture-Git-Tutorial-Edureka-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#chapters .card:nth-child(3) .card-img {
+    background: url(https://miro.medium.com/v2/resize:fit:871/1*e4zGoeKyItPVFapk8-UI8w.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-body h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.card-body a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* Testimonils */
 section#testimonials {
     display: flex;
